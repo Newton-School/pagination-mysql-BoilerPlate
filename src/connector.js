@@ -2,10 +2,18 @@
 var mysql = require('mysql');
 
 
+// var con = mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "a",
+//     database: "test",
+//     multipleStatements: true
+// });
+
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "a",
+    password: "12345",
     database: "test",
     multipleStatements: true
 });
